@@ -15,8 +15,7 @@ h1 {
     text-align: center;
     margin-top: 30px;
     font-family: "militia";
-    color: #ffffff;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #00ff1a, 0 0 80px #00ff1a, 0 0 90px #00ff1a, 0 0 100px #00ff1a, 0 0 150px #00ff1a;
+    color: rgb(65, 215, 65);
 }
 @media screen and (max-width:482px) {
     h1 {
