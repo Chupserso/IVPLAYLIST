@@ -2,6 +2,10 @@
     padding: 0px;
     margin: 0px;
 }
+@font-face {
+    font-family: "militia";
+    src: url("./militia_pro.otf");
+}
 body {
     background: url("../img/fone.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -10,6 +14,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     margin-top: 30px;
+    font-family: "militia";
     color: #ffffff;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #00ff1a, 0 0 80px #00ff1a, 0 0 90px #00ff1a, 0 0 100px #00ff1a, 0 0 150px #00ff1a;
 }
@@ -27,6 +32,7 @@ h1 {
 }
 .btn {
     border: none;
+    font-family: "militia";
     width: 80%;
     height: 50px;
     background: rgb(65, 215, 65);
@@ -39,12 +45,4 @@ h1 {
     cursor: pointer;
     background: green;
     color: white;
-}
-.no {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url("../img/nigger.jpg") center center/cover no-repeat;
-    top: 0;
-    left: 0;
 }
