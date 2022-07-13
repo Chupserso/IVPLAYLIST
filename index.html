@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPOTIFY</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+        <div class="question">
+            <h1>Go to music album?</h1>
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="yesBtn(this)">Yes</button>
+            <button class="btn" onclick="noBtn(this)">No</button>
+        </div>
+        <script>
+            "use strict"
+
+            function yesBtn(btn) {
+                document.location.href = "https://open.spotify.com/playlist/4VCE7qI8DRy6MAR0QzvFpG?si=7193f88c5fc04117";
+            }
+            function noBtn(btn) {
+                alert("You lox!");
+                document.location.href = "https://www.youtube.com/shorts/02UOXitweRo";
+            }
+        </script>
+    </body>
+</html>!
